@@ -20,7 +20,7 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 # Replace these with your own keys
 GEMINI_API_KEY = "AIzaSyAmTrwak5aM6WCTAqoPrL_XCM1VkzvS64E"
-ESPORTS_API_KEY = "04ccf967a4efb358193fa74801d5151ae92526ed003f10ebc6b28e94d07a128"
+ESPORTS_API_KEY = "04ccf967a4efb358193fa74801d5151ae92526ed003f10ebc6b28e94d07a1284"
 
 genai.configure(api_key=GEMINI_API_KEY)
 
