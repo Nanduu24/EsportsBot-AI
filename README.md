@@ -32,3 +32,5 @@ A streamlined, AI-powered chatbot that leverages Google’s Gemini LLM and the o
 2. Install dependencies:
    ```bash
    pip install -r requirements.txt
+## live deployment link
+https://esportsbot-ai-hdgezdkrmftbhdvjg5besw.streamlit.app
