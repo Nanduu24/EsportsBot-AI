@@ -77,7 +77,6 @@ def gemini_flash(prompt: str) -> str:
     Uses Google Gemini 2.0 Flash to generate a content response.
     """
     # Return the generated text (often found at `response.generations[0].text`)
-    return response.generations[0].text
     model = genai.GenerativeModel("gemini-2.0-flash")
     response = model.generate_content(prompt)
     return response.text
